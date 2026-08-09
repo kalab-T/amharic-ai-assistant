@@ -1,0 +1,125 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ==========================================
+# Environment variables / secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Data
+# ==========================================
+
+# Raw datasets
+data/raw/*
+
+# Processed/generated datasets
+data/processed/*
+
+# Keep README files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ==========================================
+# AI / ML models
+# ==========================================
+
+models/*
+!models/.gitkeep
+
+# Hugging Face cache
+.cache/
+.huggingface/
+huggingface/
+transformers_cache/
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# Testing / coverage
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# IDE / editors
+# ==========================================
+
+.vscode/
+.idea/
+
+# VS Code local history
+.history/
+
+# ==========================================
+# OS files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Node / Nuxt
+# ==========================================
+
+node_modules/
+.nuxt/
+.output/
+.nitro/
+dist/
+
+# ==========================================
+# Frontend environment files
+# ==========================================
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
