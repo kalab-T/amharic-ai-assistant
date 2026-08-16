@@ -1,0 +1,39 @@
+# ==========================================
+# Amharic AI Assistant
+# Research / NLP dependencies
+# ==========================================
+
+# Core numerical/data processing
+numpy
+pandas
+scikit-learn
+scipy
+
+# Dataset processing
+datasets
+pyarrow
+
+# Information retrieval baselines
+rank-bm25
+
+# Hugging Face NLP / Transformer
+transformers
+tokenizers
+sentencepiece
+safetensors
+huggingface_hub
+
+# Transformer training
+accelerate
+evaluate
+
+# Tokenizer/model conversion support
+protobuf
+tiktoken
+
+# PyTorch
+torch
+
+# Utilities
+tqdm
+PyYAML
